@@ -235,6 +235,7 @@
     set userid = #{userid,jdbcType=VARCHAR},
       friendid = #{friendid,jdbcType=VARCHAR},
       has_read = #{hasRead,jdbcType=INTEGER},
+      has_read = #{hasRead,jdbcType=INTEGER},
       createtime = #{createtime,jdbcType=DATE},
       has_delete = #{hasDelete,jdbcType=INTEGER},
       message = #{message,jdbcType=VARCHAR}
