@@ -28,6 +28,7 @@ public class GeneratorSqlmap {
 		try {
 			GeneratorSqlmap generatorSqlmap = new GeneratorSqlmap();
 			generatorSqlmap.generator();
+			System.out.println("你好git");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
